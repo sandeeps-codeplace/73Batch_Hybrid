@@ -1,0 +1,23 @@
+<html><head>
+<title>SureshIT</title>
+<link href="favicon.ico" rel="icon" type="image/gif">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+
+	function submitForm() {
+
+		if(document.loginForm.txtUserName.value == "") {
+				alert('User Name not given!');
+				return false;
+		   }
+
+		if(document.loginForm.txtPassword.value == "") {
+				alert("Password not given!");
+				return false;
+		   }
+
+		document.loginForm.actionID.value = "chkAuthentication";
+
+sandeep testing tha app
+logint complated
+New employee added successfully
